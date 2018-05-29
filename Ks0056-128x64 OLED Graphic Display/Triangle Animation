@@ -63,7 +63,7 @@ void setup(void)
 	else
 		if(triangleLoop%4==1)
 		{
-			draw(80,40,80,20,40,60); //modify
+			draw(80,40,80,20,40,60);
 		}		
 		else
 			if(triangleLoop%4==2)
@@ -73,7 +73,7 @@ void setup(void)
 			else
 				if(triangleLoop%4==3)
 				{
-					draw(40,80,40,60,40,20);  //modify
+					draw(40,80,40,60,40,20);
 				}		
   } 
   while (triangle.nextPage());
